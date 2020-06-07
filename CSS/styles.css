@@ -2,6 +2,7 @@
     --primary-text-color: #757575;;
     --title-tex-color: #212121; 
     --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
 }
 
 body {
@@ -41,7 +42,7 @@ body {
 /* Hero */
 
 .hero-title {
-    color: #FFFFFF;
+    color: var[--primary-white-color];
 }
 
 /* Section */
@@ -58,4 +59,10 @@ body {
 
 .feature-list .link {
 
+}
+
+/* Examples */
+
+.work-list .title {
+    color: var[--primary-white-color];
 }
