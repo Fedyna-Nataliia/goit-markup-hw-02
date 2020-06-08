@@ -12,6 +12,9 @@ body {
     background-color: #E5E5E5;
     color: var(--primary-text-color);
     font-family: "Roboto", sans-serif;
+    letter-spacing: -0.015em;
+    font-size: 14px;
+    line-height: 1,71;
   }
 
 a {
@@ -21,25 +24,20 @@ a {
   .logo  {
     color: #000000;  
     font-family: "Raleway", sans-serif; 
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1,19;
 }
 
 .logo-primary {
     color: var(--accent-color);
      
 }
-  
-
-
-
-
-
-  
 
   .list {
       list-style: none;
   }
  
-
 /* цвет основного текста #757575; */
 /* вторичный цвет текста  #212121; */
 /* белый #FFFFFF;  */
@@ -51,6 +49,9 @@ a {
 /* site-nav */
 .site-nav .link {
     color: var(--title-tex-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
 }
 
 .site-nav .link:hover, 
@@ -75,6 +76,10 @@ a {
 
 .hero-title {
     color: var(--primary-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;
+    text-align: center;
 }
 
 /* Section */
@@ -84,6 +89,10 @@ ul {
 
 .section-title {
     color: var(--title-tex-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,17;
+    text-align: center;
 }
 
 .section-list .title {
@@ -97,6 +106,10 @@ ul {
 /* Features */
 .feature-list .title {
     color: var(--title-tex-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,14;
+
 }
 
 .feature-list .link {
@@ -104,15 +117,24 @@ ul {
 
 }
 
+
 /* Examples */
 
 .work-list .title {
     color: var(--primary-white-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,14;
+    text-align: center;
 }
 
 /* Team */
 .team-list .title {
     color: var(--title-tex-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,19;
+    text-align: center;
 }
 
 .logo-list .link:hover,
@@ -135,9 +157,14 @@ ul {
 }
 
 /* Button */
-.button{
+.button {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1,88;
+    text-align: center;
 }
 
 
