@@ -48,10 +48,10 @@
 }
  
 .list  {
-
     text-decoration: none;
     list-style: none;
 }
+
 
 /* site-nav */
 .site-nav .link,
@@ -100,6 +100,7 @@
 }
 
 
+
 /* Section */
 .ul {
     list-style: none;
@@ -142,6 +143,7 @@
 
 }
 
+
 .feature-list .link {
     color: var(--title-tex-color);
     text-decoration: none;
@@ -165,7 +167,7 @@
 }
 
 /* Team */
-.section-team{
+.section-team {
     background-color: var(--background-color-sekondary);
 }
 
@@ -211,25 +213,31 @@
     text-decoration: none;
 }
 
+.filter-list .link:hover,
+.filter-list .link:focus {
+    color: var(--primary-white-color);
+}
 
 .filter-list .button {
     color: var(--title-tex-color);
 
 }
 
-.button-style {
+.filter-list .button-style {
     color: var(--title-tex-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,62;
-    
+    line-height: 1,63; 
+    text-align: center;
 }
 
-.button-style:hover,
-.button-style:focus {
+.button-style :hover,
+.button-style :focus {
     color: var(--primary-white-color);
-    background-color: var(--accent-color);    
+    background-color: var(--accent-color);
 }
+
+
 
 .example-list .title {
     color: var(--title-tex-color);
@@ -243,6 +251,8 @@
     color: var(--primary-text-color);
     text-decoration: none;
 }
+
+
 
 .galery-subtitle {
     color: var(--primary-text-color);
@@ -259,6 +269,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 1,56;
+
     
 }
 
